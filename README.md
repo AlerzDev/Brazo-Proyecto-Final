@@ -26,11 +26,7 @@ En la aplicación se agrego la función de que se trabaje bajo una secuencia de 
 
 
 
-<img src="https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1492.JPG" width="250" height="250" />
-<img src="https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1499.jpg" width="250" height="250" /><br>
-<img src="https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1501.jpg" width="250" height="250" /><br>
-<img src="https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1502.jpg" width="250" height="250" /><br>
-<img src="https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1500.jpg" width="250" height="250" /><br>
-<img src="https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1463.JPG" width="250" height="250" /><br>
-<img src="https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1469.JPG" width="250" height="250" /><br>
-<img src="https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1483.JPG" width="250" height="250" /><br>
+<img src="https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1492.JPG" width="250" height="250" />   <img src="https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1499.jpg" width="250" height="250" /><br>
+<img src="https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1501.jpg" width="250" height="250" />   <img src="https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1502.jpg" width="250" height="250" /><br>
+<img src="https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1500.jpg" width="250" height="250" />   <img src="https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1463.JPG" width="250" height="250" /><br>
+<img src="https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1469.JPG" width="250" height="250" />    <img src="https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1483.JPG" width="250" height="250" /><br>
