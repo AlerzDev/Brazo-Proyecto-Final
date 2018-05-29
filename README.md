@@ -24,4 +24,4 @@ los pasos que realizara.
 
 
 
-!["hora"](https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/mensaje.jpg)<br>
+!["Brazo"](https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1463.JPG)<br>
