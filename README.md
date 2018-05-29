@@ -23,5 +23,11 @@ los pasos que realizara.
 
 
 
-
+!["Brazo"](https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1492.JPG)<br>
+!["Brazo"](https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1499.JPG)<br>
+!["Brazo"](https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1501.JPG)<br>
+!["Brazo"](https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1502.JPG)<br>
+!["Brazo"](https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1500.JPG)<br>
 !["Brazo"](https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1463.JPG)<br>
+!["Brazo"](https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1469.JPG)<br>
+!["Brazo"](https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1483.JPG)<br>
