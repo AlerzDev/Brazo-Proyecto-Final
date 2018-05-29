@@ -15,11 +15,14 @@
 
 <h3>Descripción del Programa:</h3>
 
-En esta Practica se realizo un brazo robotico en el cual esta hecho con los servomotores 
-y con los chasis se forma la forma del un brazo.
+En esta Practica lo que se realiza es un brazo robotico, el cual esta compuesto por 3 servo-motores, los cuales brindan la movilidad necesario para que el brazo puede realizar distintas series de pasos y distintas funciones, se usa un chasis el tal esta impreso en 3D y con el se forma la forma del brazo.
+
+Para poder desarrollar la programación que requiere el funcionamiento del brazo, utilizamos Arduino y el código se trabajo en Android Studio, necesitamos tambien una Tablet para generar el apk y correrlo desde la Aplicación en la tablet, la interfaz de la aplicación nos permite seleccionar diferentes funciones segun se requiera 
 
 Este Brazo se maneja con una aplicación android la cual esta conectada a un servidor Flask  en el cual se puede controlar 
-los pasos que realizara.
+los pasos que realizara, por ejemplo abrir, cerrar, girar.
+
+En la aplicación se agrego la función de que se trabaje bajo una secuencia de pasos, mediante un arreglo que va almacenando los valores que se eligen, una vez guardados y agregads a la secuencia, solo se corre la aplicación y nos irá generando un paso tras otro de forma secuencial.
 
 
 
