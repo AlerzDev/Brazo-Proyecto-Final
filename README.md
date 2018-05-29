@@ -26,7 +26,7 @@ En la aplicación se agrego la función de que se trabaje bajo una secuencia de 
 
 
 
-!["Brazo"](https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1492.JPG=250x250)<br>
+<img src="https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1492.JPG" width="250" height="250" /><br>
 !["Brazo"](https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1499.jpg=250x250)<br>
 !["Brazo"](https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1501.jpg=250x250)<br>
 !["Brazo"](https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/IMG_1502.jpg=250x250)<br>
