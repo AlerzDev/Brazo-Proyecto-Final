@@ -13,8 +13,15 @@
 <li>Librería para la conexión de Android y Arduino y Servidor </li><br><br>
 
 
-<h3>Descripcion del Programa:</h3>
+<h3>Descripción del Programa:</h3>
 
 En esta Practica se realizo un brazo robotico en el cual esta hecho con los servomotores 
 y con los chasis se forma la forma del un brazo.
 
+Este Brazo se maneja con una aplicación android la cual esta conectada a un servidor Flask  en el cual se puede controlar 
+los pasos que realizara.
+
+
+
+
+!["hora"](https://github.com/AlerzDev/Brazo-Proyecto-Final/blob/master/mensaje.jpg)<br>
