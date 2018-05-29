@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BrazoArduinoApp</string>
+    <string name="negative">-</string>
+    <string name="positive">+</string>
+</resources>

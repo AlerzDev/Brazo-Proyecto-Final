@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:textColor="#FFF"
+        android:id="@+id/btnRotateLeft"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:src="@drawable/ic_rotate_left"
+        android:background="@drawable/btn_left_corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:textColor="#FFF"
+        android:src="@drawable/ic_rotate_right"
+        android:id="@+id/btnRotateRight"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="150dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btn_right_corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnNegativeLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/negative"
+        android:textColor="#FFF"
+        android:textSize="60sp"
+        android:background="@drawable/btn_down_corner"
+        app:layout_constraintBottom_toTopOf="@+id/btnRotateLeft"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnNegativeRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/negative"
+        android:textColor="#FFF"
+        android:textSize="60sp"
+        android:background="@drawable/btn_down_corner"
+        app:layout_constraintBottom_toTopOf="@+id/btnRotateRight"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:id="@+id/btnDanger"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/btn_danger_corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnNegativeRight"
+        app:layout_constraintStart_toEndOf="@+id/btnNegativeLeft"
+        app:srcCompat="@drawable/ic_error" />
+
+    <LinearLayout
+        android:id="@+id/webVIew"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/btnDanger"
+        app:layout_constraintEnd_toStartOf="@+id/btnNegativeRight"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnNegativeLeft"
+        app:layout_constraintTop_toTopOf="parent" >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="#FFF"
+                android:text="Motor Pinza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_margin="5dp"
+                android:background="#FFF"
+                android:id="@+id/motorPinzaText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+            <TextView
+                android:textColor="#FFF"
+                android:text="Motor Izquierdo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_margin="5dp"
+                android:background="#FFF"
+                android:id="@+id/motorIzquierdoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+            <TextView
+                android:textColor="#FFF"
+                android:text="Motor derecho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_margin="5dp"
+                android:background="#FFF"
+                android:id="@+id/motorDerechoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+            <TextView
+                android:textColor="#FFF"
+                android:text="Motor Pasos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+
+                android:layout_margin="5dp"
+                android:background="#FFF"
+                android:id="@+id/motorPasoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+            <Button
+                android:id="@+id/add"
+                android:text="Agregar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:background="#FFF"
+                android:id="@+id/lista"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnOpen"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginRight="212dp"
+        android:background="@drawable/btn_size_corner"
+        android:src="@drawable/ic_unfold_more"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnClose"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginStart="212dp"
+        android:background="@drawable/btn_size_corner"
+        android:src="@drawable/ic_unfold_less"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnPositiveLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/btn_up_corner"
+        android:text="@string/positive"
+        android:textColor="#FFF"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnNegativeLeft"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnPositiveRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btn_up_corner"
+        android:text="@string/positive"
+        android:textColor="#FFF"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnNegativeRight"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
